@@ -6,13 +6,13 @@
 import Foundation
 import AWSAppSync
 
-/*let StaticAPIKey = "da2-ipgwjh3igbavnlawp45zzhaxw4"
+/*let StaticAPIKey = "API key"
 
 // The Endpoint URL for AppSync
-let AppSyncEndpointURL: URL = URL(string: "https://p2lcyijmrfdg5aqcjw5di2hoba.appsync-api.eu-central-1.amazonaws.com/graphql")!
+let AppSyncEndpointURL: URL = URL(string: "")!
 
-let AppSyncRegion: AWSRegionType = .EUCentral1
-let database_name = "PostTable"
+let AppSyncRegion: AWSRegionType = region
+let database_name = "table name"
 
 
 class APIKeyAuthProvider: AWSAPIKeyAuthProvider {
