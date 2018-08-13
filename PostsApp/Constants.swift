@@ -22,8 +22,8 @@ class APIKeyAuthProvider: AWSAPIKeyAuthProvider {
     }
 }
 */
-let CognitoIdentityPoolId = "eu-central-1:ee865dda-d09b-42da-b2c1-345efdda584a"
+let CognitoIdentityPoolId = "pool id"
 let CognitoIdentityRegion: AWSRegionType = .EUCentral1
 let AppSyncRegion: AWSRegionType = .EUCentral1
-let AppSyncEndpointURL: URL = URL(string: "https://p2lcyijmrfdg5aqcjw5di2hoba.appsync-api.eu-central-1.amazonaws.com/graphql")!
-let database_name = "PostTable"
+let AppSyncEndpointURL: URL = URL(string: "URL")!
+let database_name = "database"
